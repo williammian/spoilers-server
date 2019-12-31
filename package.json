@@ -1,24 +1,15 @@
 {
   "name": "spoilers-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/williammian/spoilers-server.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/williammian/spoilers-server/issues"
-  },
-  "homepage": "https://github.com/williammian/spoilers-server#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.3"
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "http-status": "^1.2.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.39.0"
   }
 }
